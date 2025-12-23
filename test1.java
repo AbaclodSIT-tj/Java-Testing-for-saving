@@ -4,6 +4,6 @@ class test1{
     }
     public static void main(Stringp[] args){
         test1 msg= new test1();
-        System.out.println("heloo");
+        msg.hello();
     }
 }
