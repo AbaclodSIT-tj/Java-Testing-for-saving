@@ -6,6 +6,9 @@ public class test{
     static void method(){
         System.out.println("Welcome to the meow world");
     }
+    void hello(){
+        System.out.println("heloo");
+    }
     public static void main(String[] args){
         test t=new test();// test
         //try use object with a logical
@@ -28,6 +31,9 @@ public class test{
         System.out.println(t.name);
         //try use simple calling method
         method();//outputs inside the static void main99
+        //try use void method then call it here
+        test msg = new test();
+        msg.hello();
     }
 
 }
