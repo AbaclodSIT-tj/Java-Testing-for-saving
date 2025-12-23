@@ -3,7 +3,7 @@ public class test{
     static int y=12;
     static String name="meowy";
         //try use "static void" method note: this should be after the class or the main class
-    static void method(){+
+    static void method(){
         System.out.println("Welcome to the meow world");
     }
     public static void main(String[] args){
