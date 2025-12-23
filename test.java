@@ -9,6 +9,12 @@ public class test{
     void hello(){
         System.out.println("heloo");
     }
+    public void message(){
+        System.out.println("this is a test message");
+    }
+    public void msgs(String messages){
+        System.out.println("let's say:"+ messages);
+    }
     public static void main(String[] args){
         test t=new test();// test
         //try use object with a logical
@@ -34,6 +40,10 @@ public class test{
         //try use void method then call it here
         test msg = new test();
         msg.hello();
+        //call the two public void main method wich is messages and and msgs
+        test ply= new test();
+        ply.message();
+        ply.msgs("Hello this to my creator");
     }
 
 }
