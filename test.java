@@ -13,11 +13,14 @@ public class test{
         System.out.println("this is a test message");
     }
     public void msgs(String messages){
-        System.out.println("let's say:"+ messages);
+        System.out.println("let's say:\n"+ messages);
     }
     public static void main(String[] args){
-        test t=new test();// test
-        //try use object with a logical
+        test t=new test();// test obj's
+        test ply= new test();
+        test msg = new test();
+        test m=new test();
+        //try use object with a logical operator
         if(!x){
             System.out.println("false");
         }else {
@@ -28,7 +31,7 @@ public class test{
         //try manipulate the class variable
         t.y=15;
         System.out.println(t.y);
-        test m=new test();//create new object
+        //test m=new test(); create new object
         //try do simple manipulated variable
         m.y=39;
         System.out.println(m.y);
@@ -38,12 +41,12 @@ public class test{
         //try use simple calling method
         method();//outputs inside the static void main99
         //try use void method then call it here
-        test msg = new test();
+        //test msg = new test();
         msg.hello();
         //call the two public void main method wich is messages and and msgs
-        test ply= new test();
+        //test ply= new test();
         ply.message();
-        ply.msgs("Hello this to my creator");
+        ply.msgs("Hello to my creator");
     }
 
 }
